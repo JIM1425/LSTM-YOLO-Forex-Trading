@@ -39,6 +39,8 @@ models agree, and executes orders in real time through MetaTrader 5.
  ## YOLOv10 model
 Trained on candlestick chart images labeled with technical patterns using **Roboflow**. A 640 × 640 pixel input size was used, along with auto-orientation and random rotations between −15° and 15°.
 
+>The trained model is not included in this repository because its file size exceeds GitHub's limit
+
 ## Results
  
 Tested live for 1 day, and because YOLO is selective only 3 valid setups appeared where both
@@ -50,8 +52,7 @@ models agreed. We obtain that 2 of 3 trades closed on the right side (~66% hit r
 | 2 | −3.00  |
 | 3 | +65.00 |
  
->this shows
-the pipeline runs end to end, not that the strategy is profitable.
+>This shows the pipeline runs end to end, not that the strategy is profitable.
 
- 
+
 
